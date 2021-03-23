@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    
+}
+
+.wrapper{
+    color: #fff;
+    width: 80%;
+    margin: 25px auto;
+}
+
+#hero-logo{
+    width: 7em;
+    height: auto;  
+}
+
+
+/* hero background */
+.hero-bg{
+    width: 100%;
+    margin: 40px 0 20px;
+}
+
+.grid-content{
+    text-align: center;
+}
+
+.grid-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+}
+
+h1{
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+/* button styling */
+
+.btn{
+    padding: 9px 65px;
+    border-radius: 40px;
+    border: none;
+    margin: 25px;
+    font-size: .7em;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0 0 6px 0.1px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: hsl(0, 0%, 100%);
+}
+
+.social-links{
+    text-align: center;
+}
+
+
+
+.fab{
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 30px 5px;
+    color: #fff;    
+}
+
+#fa{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.fab:hover{
+    color: hsl(300, 76%, 76%);
+    border: 1px solid hsl(300, 76%, 76%);
+
+
+}
+
+
+.attribution a:hover{
+    color: hsl(300, 76%, 76%);
+    border-bottom: 1px solid hsl(300, 76%, 76%);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+@media screen and (min-width: 900px){
+
+    body{
+        background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .wrapper{
+        width: 85%;
+        margin: 60px auto 30px;
+    }
+
+    #hero-logo{
+        width: 9em;
+        height: auto;  
+    }
+
+    .grid-wrapper{
+        display: flex;
+    }
+
+    .grid-content{
+        text-align: left;
+        width: 370px;
+        margin-top: 85px;
+        margin-left: 30px;
+    }
+
+    .hero-bg{
+        width: 60%;
+        margin: 60px 0 20px;
+    }
+
+    h1{
+        font-size: 1.8em;
+    }
+
+    .btn{
+        margin-left: 0;
+        padding: 15px 45px;
+        box-shadow: 0 5px 6px 0.1px rgba(0, 0, 0, 0.3); 
+    }
+
+    .btn:hover{
+        background-color: hsl(300, 69%, 71%);
+        color: #fff;
+    }
+
+     .social-links{
+        text-align: right;
+    }
+
+    .fab{
+        margin: 30px 8px; 
+    }
+    
+
+    .attribution{
+        margin-bottom: 30px;
+        color: hsl(300, 69%, 71%);
+    }
+
+   
+    
+
+
+    
+}
+
+    
+
